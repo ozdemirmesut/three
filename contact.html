@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact – INCREASE4MED</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="nav-container">
+            <a href="index.html" class="logo">INCREASE4MED</a>
+            <div class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="primary-navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <nav>
+                <ul id="primary-navigation">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="objectives.html">Objectives</a></li>
+                    <li><a href="pilots.html">Pilots</a></li>
+                    <li><a href="partners.html">Partners</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="hero" style="background-image: url('images/about.png'); min-height: 40vh;">
+            <div class="hero-content">
+                <h1>Contact Us</h1>
+                <p>We welcome your questions, feedback and collaboration ideas.</p>
+            </div>
+        </section>
+        <section class="section">
+            <h2 class="section-title">Get in Touch</h2>
+            <p class="section-description">For general inquiries about INCREASE4MED, please use the contact form below or reach out to the project coordinator. Your message will be routed to the relevant partner.</p>
+            <div class="contact-form">
+                <!-- The form uses mailto. Replace the address with your project email if available. -->
+                <form action="mailto:increase4med@example.com" method="post" enctype="text/plain">
+                    <label for="name">Name *</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email *</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="message">Message *</label>
+                    <textarea id="message" name="message" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+                <p style="font-size: 0.8rem; margin-top: 10px;">Submitting this form will open your email client. We do not store personal data on this site.</p>
+            </div>
+            <div style="margin-top: 40px;">
+                <h3>Coordinator</h3>
+                <p><strong>Mesut Özdemir</strong></p>
+                <p>International Agricultural Research and Training Center (UTAEM)</p>
+                <p>Menemen, İzmir, Türkiye</p>
+                <p>Email: <a href="mailto:mesut.ozdemir@utaem.gov.tr">mesut.ozdemir@utaem.gov.tr</a></p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Funded by the European Union under Horizon Europe. Views and opinions expressed are those of the authors and do not necessarily reflect those of the European Union or the European Commission.</p>
+        <p>&copy; 2025 INCREASE4MED Consortium</p>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
